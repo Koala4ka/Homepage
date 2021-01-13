@@ -1,114 +1,26 @@
 <!DOCTYPE html>
 <html>
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <title>Résumé</title>
-    <link rel="stylesheet" href="https://volodymyrkushnir.com/assets/stylesheets/base.css">
-    <style>
-      body {font-family: Arial, Helvetica, sans-serif;}
-      
-      #myImg {
-        border-radius: 5px;
-        cursor: pointer;
-        transition: 0.3s;
-      }
-      
-      #myImg:hover {opacity: 0.7;}
-      
-      /* The Modal (background) */
-      .modal {
-        display: none; /* Hidden by default */
-        position: fixed; /* Stay in place */
-        z-index: 1; /* Sit on top */
-        padding-top: 100px; /* Location of the box */
-        left: 0;
-        top: 0;
-        width: 100%; /* Full width */
-        height: 100%; /* Full height */
-        overflow: auto; /* Enable scroll if needed */
-        background-color: rgb(0,0,0); /* Fallback color */
-        background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
-      }
-      
-      /* Modal Content (image) */
-      .modal-content {
-        margin: auto;
-        display: block;
-        width: 80%;
-        max-width: 700px;
-      }
-      
-      /* Caption of Modal Image */
-      #caption {
-        margin: auto;
-        display: block;
-        width: 80%;
-        max-width: 700px;
-        text-align: center;
-        color: #ccc;
-        padding: 10px 0;
-        height: 150px;
-      }
-      
-      /* Add Animation */
-      .modal-content, #caption {  
-        -webkit-animation-name: zoom;
-        -webkit-animation-duration: 0.6s;
-        animation-name: zoom;
-        animation-duration: 0.6s;
-      }
-      
-      @-webkit-keyframes zoom {
-        from {-webkit-transform:scale(0)} 
-        to {-webkit-transform:scale(1)}
-      }
-      
-      @keyframes zoom {
-        from {transform:scale(0)} 
-        to {transform:scale(1)}
-      }
-      
-      /* The Close Button */
-      .close {
-        position: absolute;
-        top: 15px;
-        right: 35px;
-        color: #f1f1f1;
-        font-size: 40px;
-        font-weight: bold;
-        transition: 0.3s;
-      }
-      
-      .close:hover,
-      .close:focus {
-        color: #bbb;
-        text-decoration: none;
-        cursor: pointer;
-      }
-      
-      /* 100% Image Width on Smaller Screens */
-      @media only screen and (max-width: 700px){
-        .modal-content {
-          width: 100%;
-        }
-      }
-      </style>
-  </head>
-  <body>
+</head>
+
+<body>
     <main>
-      <article>
-        <div class="page" style="border-color: midnightblue;">
-          <div class="stackable grid">
-            <div class="row">
-              <div class="three wide center aligned column">
-                <div class="avatar-wrapper">
-                  <object class="avatar" data="https://svgshare.com/i/T4T.svg" role="img" aria-label="My profile picture"></object>
-                </div>
-              </div>
-              <div class="thirteen wide column">
-                <div class="stackable grid">
-                  <div class="sixteen wide column">
-                    <h1 class="name">Anna Hovorkova</h1>
+        <article>
+          <div class="page" style="border-color: midnightblue;">
+            <div class="stackable grid">
+                <div class="row">
+                  <div class="three wide center aligned column">
+                    <div class="avatar-wrapper">
+                        <object class="avatar" data="https://svgshare.com/i/T4T.svg" role="img" aria-label="My profile picture"></object>
+                      </div>
+                  </div>
+                  <div class="thirteen wide column">
+                    <div class="stackable grid">
+                      <div class="sixteen wide column">
+                        <h1 class="name">Anna Hovorkova</h1>
                     <div class="job">full stack developer</div>
                     <ul class="contacts">
                       <li>
@@ -141,154 +53,65 @@
                           <span>+38 (096) 2508458</span>
                         </a>
                       </li>
-                      <li>
-                        <a href="https://volodymyrkushnir.com/" rel="author" class="website">
-                          <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><path fill="currentColor" d="M336.5 160C322 70.7 287.8 8 248 8s-74 62.7-88.5 152h177zM152 256c0 22.2 1.2 43.5 3.3 64h185.3c2.1-20.5 3.3-41.8 3.3-64s-1.2-43.5-3.3-64H155.3c-2.1 20.5-3.3 41.8-3.3 64zm324.7-96c-28.6-67.9-86.5-120.4-158-141.6 24.4 33.8 41.2 84.7 50 141.6h108zM177.2 18.4C105.8 39.6 47.8 92.1 19.3 160h108c8.7-56.9 25.5-107.8 49.9-141.6zM487.4 192H372.7c2.1 21 3.3 42.5 3.3 64s-1.2 43-3.3 64h114.6c5.5-20.5 8.6-41.8 8.6-64s-3.1-43.5-8.5-64zM120 256c0-21.5 1.2-43 3.3-64H8.6C3.2 212.5 0 233.8 0 256s3.2 43.5 8.6 64h114.6c-2-21-3.2-42.5-3.2-64zm39.5 96c14.5 89.3 48.7 152 88.5 152s74-62.7 88.5-152h-177zm159.3 141.6c71.4-21.2 129.4-73.7 158-141.6h-108c-8.8 56.9-25.6 107.8-50 141.6zM19.3 352c28.6 67.9 86.5 120.4 158 141.6-24.4-33.8-41.2-84.7-50-141.6h-108z"></path></svg>
-                          <span>https://volodymyrkushnir.com/</span>
-                        </a>
-                      </li>
                     </ul>
-                  </div>
-                  <div class="sixteen wide mobile only column">
-                    <div class="divider"></div>
-                  </div>
-                  <div class="sixteen wide column">
-                    <h2>Résumé</h2>
-                    <p>&mdash; I am a self-motivated, enthusiastic programmer<strong style="margin-left: 0.0625em;">*</strong> I have experience in pet
-                      projects with the team. Besides, I write my own projects, which I sometimes publish at <a href="https://github.com/Koala4ka/" rel="external">GitHub</a>.
-                      I like to take on new challenges and strive to overcome them effectively and on time.
-                      I have a strong passion for self-development and obtaining new knowledge and experience
-                      by performing complex tasks. At the moment, I know that I am ready to get real 
+                      </div>
+                      <div class="sixteen wide mobile only column">
+                        <div class="divider"></div>
+                      </div>
+                      <div class="sixteen wide column">
+                        <h2>Résumé</h2>
+                        <p>&mdash; I am a self-motivated, enthusiastic programmer<strong style="margin-left: 0.0625em;">*</strong> I have experience in pet
+                          projects with the team. Besides, I write my own projects, which I sometimes publish at <a href="https://github.com/Koala4ka/" rel="external">GitHub</a>.
+                          I like to take on new challenges and strive to overcome them effectively and on time.
+                          I have a strong passion for self-development and obtaining new knowledge and experience
+                          by performing complex tasks. At the moment, I know that I am ready to get real </p>
+                      </div>
+                    </div>
                   </div>
                 </div>
-              </div>
-            </div>
-            <div class="row">
-              <div class="sixteen wide column">
-                <div class="fat divider"></div>
-              </div>
-            </div>
-            <div class="row">
-              <div class="ten wide column">
-                <section>
-                  <h3>Experience</h3>
-                  <h6>Now</h6>
+                <div class="row">
+                  <div class="sixteen wide column">
+                    <div class="fat divider"></div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="ten wide column">
+                    <h3>Experience</h3>
+                    <h6>Now</h6>
 								<ul class="timeline">
 									<li class="highlighted">
 										<p><em>1<sup>st</sup> November 2020 – present</em></p>
 										<p><strong>Traine .Net Developer</strong> at <strong><a href="https://www.tripmasters.com/" rel="external">Tripmasters</a></strong></p>
-										<ul>
-                      <h6>Recent</h6>
-                      <ul class="timeline">
+                                    </li>
+                                </ul>
+                    <h6>Recent</h6>
+                    <ul>
                         <li class="highlighted">
                           <p><em>1<sup>st</sup> November 2019 – January 2020</em></p>
                           <p><strong>QA</strong> at <strong><a href="https://dinarys.com/" rel="external">Dinarys</a></strong></p>
-                          <ul>
-                            <section>
-                              <h3>Something about me👩‍💻</h3>
-                              <li class="details">
-                                <input type="checkbox" id="other">
-                                <label for="other" class="summary">I also do some other things from time to time &#x1f389;</label>
-                                <div>
-                                  <ul>
-                                    <li>sometimes I'm being <em>teacher</em> in <em>school</em></li>
-                                    <li>I'm good at kitchen talks about pretty much anything</li>
-                                    <li>I can play video games with you so that we become a better team</li>
-                                  </ul>
-                                </div>
-                              </li>
-                            </section>            
-                </section>   
-                <section>
-                  <div>
-                    <h6>And Here I live</h6>
-                    <div><img id="myImg" src="https://svgshare.com/i/T6z.svg" alt="Snow" style="width:100%;max-width:300px">
-                      <!-- The Modal -->
-                      <div id="myModal" class="modal">
-                        <span class="close">&times;</span>
-                        <img class="modal-content" id="img01">
-                        <div id="caption"></div>
-                      </div> 
-                    </div>
-                  </div>  
-                </section>          
+                        </li>
+                    </ul>
+                        <h3>Something about me👩‍💻</h3>
+                        <details>
+                            <summary>Заголовок спойлера</summary>
+                            Текст спойлера
+                    </details>
+                  </div>
+                  <div class="six wide column">
+                    <!-- Languages -->
+                    <!-- Skills -->
+                    <!-- Character -->
+                    <!-- Likes -->
+                    <!-- Dislikes -->
+                    <!-- Wants -->
+                    <!-- Education -->
+                    <!-- Articles -->
+                  </div>
+                </div>
               </div>
-              <div class="six wide column">
-                <section>
-                  <h3>Languages</h3> 
-                    <li>🌸English</li>
-                    <li>🌸Russian</li>
-                    <li>🌸Ukrainian</li>
-                    <li>🌸German</Cli>                         
-                </section>
-                <section>
-                  <h3>Skills</h3>
-                  <p class="tags small">
-                    <ul type="circle">
-                      <li>Java Core</li>
-                      <li>Spring</li>
-                      <li>JDBC</li>
-                      <li>SQL</Cli>
-                      <li>AWS/GCP</li>
-                      <li>HTML/SCC</li>
-                      <li>Linux/Windows</li>
-                    </ul>            
-                  </p>
-                </section>
-                <section>
-                  <h3>Education</h3>
-                  <ul class="timeline">
-                    <li>
-                      <div><em>Every day</em></div>
-                      <p class="tags bulleted">
-                        <span class="tag"><a href="https://www.codewars.com/" rel="external"><strong>Codewars</strong></a></span><span class="tag"><a href="https://medium.com/better-programming" rel="external"><strong>Medium</strong></a></span>
-                      </p>
-                    </li>
-                    <li>
-                      <div><em>June 2020 &ndash; October 2020</em></div>
-                      <div><strong>Certificate of Java Backend Developer</strong> at <a href="https://cursor.education/uk/" rel="external"><strong>Cursor Education</strong></a></div>
-                    </li>
-                    <li>
-                      <div><em>1<sup>st</sup> September 2003 &ndash; 30<sup>th</sup> June 2008</em></div>
-                      <div><strong>Bachelor's degree</strong> in <strong>science and technical Translation</strong> at <a href="https://www.nmu.org.ua/en/" rel="external"><strong>National Mining University</strong></a></div>
-                    </li>
-                  </ul>
-                </section>
-                <section>
-                  <h3>Articles</h3>
-                  <p>None published <sup><em>yet</em></sup></p>
-                </section>
-              </div>
-            </div>
           </div>
-        </div>
-      </article>
-    </main>
-    <footer>
-      <em>“That's all Folks!”</em>&nbsp;&#x1F437;
-    </footer>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
-    <script>
+        </article>
+      </main>
+</body>
 
-      // Get the modal
-      var modal = document.getElementById("myModal");   
-      // Get the image and insert it inside the modal - use its "alt" text as a caption
-      var img = document.getElementById("myImg");
-      var modalImg = document.getElementById("img01");
-      var captionText = document.getElementById("caption");
-      img.onclick = function(){
-        modal.style.display = "block";
-        modalImg.src = this.src;
-        captionText.innerHTML = this.alt;
-      } 
-      // Get the <span> element that closes the modal
-      var span = document.getElementsByClassName("close")[0];
-      
-      // When the user clicks on <span> (x), close the modal
-      span.onclick = function() { 
-        modal.style.display = "none";
-      }
-      </script>
-      
-  </body>
 </html>
